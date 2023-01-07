@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main-card{
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.267);
+}
+.top-card{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 60px;
+}
+.top-card > h1{
+    color: #290429;
+    font-size: 1.3em;
+}
+.top-card > h2{
+    text-align: left;
+    font-weight: normal;
+    font-size: .9em;
+    color: #290429;
+}
+.mid-card{
+    background: url(galaxia-gif-mid.gif);
+    height: 260px;
+}
+.bot-card{
+    color: #290429;
+    text-align: center;
+    height: 60px;
+    line-height: 1.2em;
+    padding-bottom: 40px;
+}
+.btn-card{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+.btn-card > button{
+    color: #290429;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-card > button:hover{
+    color: #5c0a5c;
+    transition: .3s;
+}
+
